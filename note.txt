@@ -1,0 +1,11 @@
+Crud
+    Front -> React
+    Back  -> Firebase
+
+Props y enrutamiento de componentes
+Props => informacion dinamica que se pasa de un componente padre a un hijo
+    por medio de las Props yo no puedo pasar informacion de un componente hijo a un componente padre
+Enrutamiento => La navegacion entre componentes
+
+Return () codigo html | {} codigo js
+
