@@ -5,12 +5,12 @@ const ListadosEstudiantes = ({estudiantes}) => {
   return (
     <section className="Card">
         {
-            estudiantes.map((estudiantes)=>(
+            estudiantes.map((estudiante)=>(
                 <section className="lista">
-                    <p>Nombre: {estudiantes.nombre}</p>
-                    <p>Edad: {estudiantes.edad}</p>
-                    <p>Nota: {estudiantes.nota}</p>
-                    <p>ID: {estudiantes.id}</p>
+                    <p>Nombre: {estudiante.nombre}</p>
+                    <p>Edad: {estudiante.edad}</p>
+                    <p>Nota: {estudiante.nota}</p>
+                    <p>ID: {estudiante.id}</p>
                     
                 </section>
             ))
